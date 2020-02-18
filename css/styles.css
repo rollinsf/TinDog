@@ -10,6 +10,13 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 h3 {
 
 }
@@ -91,4 +98,70 @@ h3 {
     color: #8f8f8f;
 }
 
+/*Testimonials*/
 
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*Press*/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.pricing-btn-outline {
+    color: #ff4c68;
+    border-color: #ff4c68;
+}
+
+.pricing-btn-outline:hover {
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+    color: white;
+}
+
+.pricing-btn {
+    color: white;
+    background-color: #ff4c68;
+}
+
+.pricing-btn:hover {
+    background-color: #ef8172;
+    color: white;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
