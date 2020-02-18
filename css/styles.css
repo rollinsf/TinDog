@@ -17,10 +17,6 @@ h2 {
     line-height: 1.5;
 }
 
-h3 {
-
-}
-
 /*Title*/
 
 #title {
@@ -29,7 +25,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 
@@ -59,6 +55,7 @@ h3 {
 
 .download-button {
     margin: 5% 3% 5% 0;
+    font-weight: 500;
 }
 
 /* Title Image */
@@ -66,12 +63,16 @@ h3 {
 .title-img {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features */
 
 #features {
     padding: 7% 15%;
+    position: relative;
+    background-color: white;
 }
 
 .feature-col {
@@ -164,4 +165,55 @@ h3 {
 
 .pricing-col {
     padding: 3% 2%;
+}
+
+/*Call To Action*/
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.cta-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 1%;
+}
+
+/*Footer*/
+
+#footer {
+    padding: 8%;
+    text-align: center;
+    background-color: #fff;
+    color: grey;
+}
+
+.footer-row {
+    width: 20%;
+    margin: 0 auto 3%;
+}
+
+.footer-icon {
+    width: 25%;
+}
+
+.footer-icon:hover {
+    color: #ef8172;
+}
+
+/*Media Queries*/
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        transform: unset;
+        position: unset;
+    }
 }
